@@ -16,8 +16,8 @@
     height: 100%;
     margin: 50px auto;
     padding: 20px;
-    border: 3px solid #999228;
-    border-radius: 5px;
+    border: 5px solid #999228;
+    border-radius: 10px;
     background-image: url("https://i.pinimg.com/736x/0d/11/b9/0d11b98ba5e4a0d8edbdb2144e7e5263.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,21 @@
 h1{
     text-align: center;
     margin: 40px 0;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+.middle-info{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    padding-bottom: 70px;
 }
 
 .dati h3{
