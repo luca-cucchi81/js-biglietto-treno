@@ -25,6 +25,8 @@
 
 h1{
     font-size: 3em;
+    font-style: italic;
+    color: #997f28;
     text-align: center;
     margin: 40px 0;
 }
@@ -46,15 +48,18 @@ img{
 
 .dati h3{
     margin: 20px 30px;
+    color: #997f28;
 }
 
 .percorrenza h3{
     margin: 50px 30px;
+    color: #997f28;
 }
 
 .totale h2{
     text-align: center;
     text-transform: uppercase;
+    color: #997f28;
 }
 
 span{
