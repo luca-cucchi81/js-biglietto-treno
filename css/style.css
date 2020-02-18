@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+.container{
+    width: 50%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #999228;
+    border-radius: 5px;
+    background-image: url("https://i.pinimg.com/736x/0d/11/b9/0d11b98ba5e4a0d8edbdb2144e7e5263.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.dati h3{
+    margin: 20px 30px;
+}
+
+.percorrenza h3{
+    margin: 50px 30px;
+}
+
+.totale h2{
+    text-align: center;
+}
+
+span{
+    font-style: italic;
+}
