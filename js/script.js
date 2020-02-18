@@ -18,3 +18,17 @@ document.getElementById('nome').innerHTML = nome;
 document.getElementById('cognome').innerHTML = cognome;
 document.getElementById('età').innerHTML = età;
 document.getElementById('kilometri').innerHTML = tragitto;
+
+/*inserimento variabili prezzo*/
+var prezzoIntero = tragitto * 0.21;
+var prezzoAdolescenti = (prezzoIntero * 80) / 100;
+var prezzoAnziani = (prezzoIntero * 60) / 100;
+
+/*inserimento istruzioni condizionali*/
+if (età < 18){
+    document.getElementById('costo-finale').innerHTML = prezzoAdolescenti;
+} else if (età >= 65){
+    document.getElementById('costo-finale').innerHTML = prezzoAnziani;
+} else{
+    document.getElementById('costo-finale').innerHTML = prezzoIntero;
+}
