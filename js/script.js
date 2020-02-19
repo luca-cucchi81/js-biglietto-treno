@@ -20,8 +20,8 @@ document.getElementById('età').innerHTML = età;
 document.getElementById('kilometri').innerHTML = tragitto;
 
 /*inserimento variabili prezzo*/
-var prezzoIntero = Math.ceil(tragitto * 0.21);    //i prezzi vengono arrotondati sempre per eccesso... "grazie Trenitalia!!"
-var prezzoMinorenni = Math.ceil((prezzoIntero * 80) / 100);
+var prezzoIntero = tragitto * 0.21;
+var prezzoMinorenni = Math.ceil((prezzoIntero * 80) / 100); //i prezzi vengono arrotondati sempre per eccesso... "grazie Trenitalia!!"
 var prezzoAnziani = Math.ceil((prezzoIntero * 60) / 100);
 
 /*inserimento istruzioni condizionali*/
